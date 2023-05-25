@@ -1,0 +1,165 @@
+.home_page {
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.home_page>h1 {
+    margin-top: 3rem;
+    font-size: 3rem;
+}
+
+.section_1 {
+    margin-left: 6rem;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+#service-image {
+    width: 90%;
+}
+
+#about {
+    border-radius: 5px;
+    background-color: #3B76E3;
+    color: #03045e;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.088);
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#about h1 {
+    font-size: 4rem;
+    color: #03045e;
+}
+
+#content {
+    font-size: 1.5rem;
+    padding: 8%;
+}
+
+.section_2 {
+    color: #03045e;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.section_2 p {
+    border-radius: 5px;
+    margin: 4%;
+    padding: 2%;
+    font-size: 1.3rem;
+    width: 20rem;
+    height: 14rem;
+    background-color: #3B76E3;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.088);
+    text-align: center;
+}
+
+.section_2 h1 {
+    color: #03045e;
+}
+
+.footer {
+    text-align: center;
+    padding-top: 15px;
+    width: 100%;
+    background: rgb(7, 11, 34);
+    color: white;
+}
+
+.gaping {
+    padding-top: 2rem;
+}
+
+.contacts {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 4rem;
+}
+
+.freeAn {
+    display: flex;
+    width: 100%;
+    height: 30rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.freeAnImg {
+    background-image: url("../images/pointing3.webp");
+    width: 40%;
+    background-size: cover;
+}
+
+.freeAnno {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    width: 60%;
+}
+
+.boxing {
+    border-radius: 10px;
+    padding-top: 5rem;
+    margin-top: 10rem;
+    width: 50%;
+    background-color: #f77f00;
+    color: white;
+    height: 14rem;
+}
+
+#whu {
+    padding-top: 5rem;
+}
+
+#getting {
+    padding-bottom: 150px;
+}
+
+@media (max-width: 814px) {
+    #service-image {
+        display: none;
+    }
+    #about {
+        margin-right: 5rem;
+    }
+    #about h1 {
+        font-size: 2rem;
+    }
+    #about #content {
+        font-size: 1.2rem;
+    }
+    #whu {
+        font-size: 2rem;
+    }
+    #a1 {
+        font-size: 1.2rem;
+    }
+    #a2 {
+        font-size: 1.2rem;
+    }
+    #a3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width:962px) {
+    .freeAnImg {
+        display: none;
+    }
+    .freeAnno {
+        width: 40rem;
+    }
+    .boxing {
+        height: 18rem;
+        margin-top: 4rem;
+    }
+    .freeAn {
+        height: 26rem;
+    }
+}
