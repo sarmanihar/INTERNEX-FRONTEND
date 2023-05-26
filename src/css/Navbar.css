@@ -1,0 +1,47 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 8.5vh;
+    width: 100%;
+    background: rgb(7, 11, 34);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+nav h2 {
+    width: 80%;
+    text-align: center !important;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn {
+    position: fixed;
+    top: 1rem;
+    right: 2rem;
+    border: 1px solid black;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: blue;
+}
+
+.btn:hover {
+    border: 1px solid rgb(15, 182, 88);
+    color: antiquewhite;
+}
+
+#logged {
+    border-radius: 50%;
+    width: 4%;
+    height: 4%;
+}
+
+@media (max-width: 456px) {
+    #btnExtend {
+        position: fixed;
+        top: 1.5rem;
+        right: 0.6rem;
+    }
+}
