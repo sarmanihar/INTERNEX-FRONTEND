@@ -1,0 +1,165 @@
+.newNav {
+    margin-top: 2rem;
+    background-color: #001d3d;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    margin-left: 0rem;
+    width: 90%;
+    height: 15rem;
+    margin-bottom: 4.5rem;
+    color: #b28800;
+}
+
+.profile_pic_b {
+    border-radius: 50%;
+    height: 8rem;
+    width: 8.7rem;
+    box-shadow: 0px 0px 3px 3px rgba(164, 164, 164, 0.872);
+}
+
+
+/* #IMAG {
+
+    background-color: #001d3d;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    height: 70%;
+    width: 100%;
+} */
+
+
+/* .imAg {
+    background-image: url("../images/profbg2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 67%;
+
+} */
+
+.headBar {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes dropTop {
+    0% {
+        transform: translateY(-100%) scale(0);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0%) top(60%) scale(1);
+        opacity: 1;
+    }
+}
+
+.row {
+    margin-bottom: 5%;
+}
+
+
+/* .createPage #image {
+    min-height: 2.5rem;
+} */
+
+
+/* .createPage .imageUploaded {
+    min-height: 7rem;
+    min-width: 7rem;
+    object-fit: cover;
+    background: var(--whitesmoke);
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    overflow-x: auto;
+    max-width: 90vw;
+}
+
+.createPage .imageUploaded img {
+    width: 10rem;
+    object-fit: cover;
+} */
+
+
+/* .createPage textarea {
+    min-height: 10rem;
+    resize: none;
+} */
+
+#forFlex {
+    padding-left: 2rem;
+    padding-top: 2.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+/* #forFlex #para {
+    padding-top: 4rem;
+} */
+
+.LF {
+    /* float: left; */
+    margin-right: 2rem;
+}
+
+#LFO {
+    margin-top: 2rem;
+}
+
+
+/*
+.LFI {
+    margin: auto;
+} */
+
+#edbt {
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
+    background-color: #F67E00;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 0 0.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+#edbt:hover {
+    border: none;
+    background-color: rgb(59, 59, 255);
+    color: aqua;
+}
+
+@media (max-width:962px) {
+    .newNav {
+        width: 100%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+}
+
+@media(max-width:471px) {
+    .newNav {
+        width: 100%;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .profile_pic_b {
+        height: 4rem;
+        width: 4.7rem;
+    }
+    .LF {
+        margin-right: 1rem;
+    }
+    #LFO {
+        margin-top: 1rem;
+    }
+    #forFlex {
+        padding-left: 0.5rem;
+    }
+}
